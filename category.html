@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Directory — AI Tools Directory</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body data-page="category">
+  <nav class="navbar border-bottom border-secondary-subtle">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand fw-semibold" href="index.html">&larr; <span class="text-info">Home sphere</span></a>
+      <a class="btn btn-outline-light btn-sm" href="category.html?cat=all">All entries</a>
+    </div>
+  </nav>
+
+  <main class="container-xl py-4">
+    <div id="dataWarning" class="alert alert-warning" hidden></div>
+    <h1 id="catTitle" class="h2 mb-1"></h1>
+    <p id="catDesc" class="text-secondary"></p>
+
+    <div class="row g-2 mb-3">
+      <div class="col-12 col-lg-4"><input id="q" class="form-control" type="search" placeholder="Search name, description, tags…" aria-label="Search"></div>
+      <div class="col-6 col-lg-2"><select id="fSub" class="form-select" aria-label="Subcategory"></select></div>
+      <div class="col-6 col-lg-2"><select id="fPrice" class="form-select" aria-label="Pricing type"></select></div>
+      <div class="col-6 col-lg-2"><select id="fStatus" class="form-select" aria-label="Verification status"></select></div>
+      <div class="col-6 col-lg-2">
+        <select id="sort" class="form-select" aria-label="Sort">
+          <option value="name">Name A–Z</option><option value="name-desc">Name Z–A</option>
+          <option value="sub">Subcategory</option><option value="price">Pricing</option><option value="status">Status</option>
+        </select>
+      </div>
+    </div>
+    <div class="d-flex justify-content-between align-items-center mb-2 small text-secondary">
+      <span id="count"></span><button id="reset" class="btn btn-link btn-sm p-0">Reset filters</button>
+    </div>
+    <div id="results"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-credit">Designed &amp; Developed by <strong>Smit Salunkhe</strong></p>
+    <ul class="footer-links">
+      <li><a href="https://github.com/Salunkhesmit" target="_blank" rel="noopener noreferrer" aria-label="GitHub: Salunkhesmit"><i class="fa-brands fa-github" aria-hidden="true"></i><span>Salunkhesmit</span></a></li>
+      <li><a href="mailto:salunkhesmit4428@gmail.com" aria-label="Email salunkhesmit4428@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span>salunkhesmit4428@gmail.com</span></a></li>
+    </ul>
+  </footer>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="detailPanel" aria-labelledby="detailTitle">
+    <div class="offcanvas-header border-bottom border-secondary-subtle">
+      <h2 class="offcanvas-title h5" id="detailTitle"></h2>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body" id="detailBody"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="data/directory-data.js"></script>
+  <script src="assets/js/directory.js"></script>
+</body>
+</html>

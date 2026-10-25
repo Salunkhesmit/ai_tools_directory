@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AI Tools Directory — Knowledge Universe</title>
+  <meta name="description" content="A personal directory of AI tools, websites, UI references, code libraries and learning resources.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    /* headline sits above the globe in normal flow, so it never overlaps the nodes */
+    #headline{position:relative;left:auto;top:auto;transform:none;flex:none;width:min(92vw,720px);margin:0 auto;padding:0 var(--pad);z-index:6;font-size:clamp(26px,3.4vw,44px)}
+    #headline .eyebrow{display:block;margin-bottom:10px;font-family:var(--sans);font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--accent)}
+    #headline .sub{margin-top:12px}
+    @media (max-width:640px){#headline{font-size:clamp(22px,7vw,30px)}}
+    /* sticky nav (moved out of the hero so it follows the page) */
+    :root{--nav-h:60px}
+    .hero-nav{position:sticky;top:0;z-index:50;height:var(--nav-h);padding:0 var(--pad);background:rgba(5,7,13,.78);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid rgba(139,92,246,.22)}
+    .hero{height:calc(100vh - var(--nav-h));height:calc(100svh - var(--nav-h));transition:opacity .9s ease}
+    /* zoom only affects the globe: clip it to its own area and fade its edges */
+    .stage{overflow:hidden;-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 7%,#000 93%,transparent 100%);mask-image:linear-gradient(to bottom,transparent 0,#000 7%,#000 93%,transparent 100%)}
+    /* heading block: three lines, in flow above the globe */
+    #headline{margin-top:clamp(10px,2vh,22px)}
+    #headline .sub{display:block;font-size:clamp(9.5px,1.6vw,11px);letter-spacing:.2em;line-height:1.6}
+    @media (max-height:520px) and (orientation:landscape){#headline .sub{display:none}}
+    /* intro screen */
+    body.intro-active{overflow:hidden}
+    body.intro-active .hero{opacity:0}
+    #intro{position:fixed;inset:0;z-index:2000;display:grid;place-items:center;padding:24px;text-align:center;background:radial-gradient(ellipse 70% 50% at 50% 55%,rgba(139,92,246,.2),transparent 70%),radial-gradient(ellipse at 50% 0%,#10182b 0%,#05070d 70%);transition:opacity .8s ease,transform .8s ease,visibility .8s}
+    #intro.leaving{opacity:0;transform:scale(1.04);visibility:hidden;pointer-events:none}
+    .intro-inner{max-width:620px}
+    .intro-inner>*{opacity:0;animation:introIn .9s var(--ease) forwards}
+    .intro-eyebrow{display:block;margin-bottom:14px;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--accent);animation-delay:.1s!important}
+    #intro h2{font-family:var(--serif);font-weight:400;font-size:clamp(34px,7vw,72px);line-height:1.05;letter-spacing:-.01em;margin:0 0 18px;animation-delay:.25s!important}
+    #intro p{color:rgba(244,242,239,.65);font-size:clamp(13px,2.4vw,15px);line-height:1.7;margin:0 auto 30px;max-width:480px;animation-delay:.45s!important}
+    #introGo{animation-delay:.65s!important}
+    @keyframes introIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+    /* back to top */
+    #toTop{position:fixed;right:max(var(--pad),env(safe-area-inset-right));bottom:calc(18px + var(--safe-b));z-index:60;display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid var(--line);background:rgba(5,7,13,.82);backdrop-filter:blur(8px);color:var(--ink);font-size:11px;letter-spacing:.16em;text-transform:uppercase;opacity:0;transform:translateY(10px);pointer-events:none;transition:opacity .3s,transform .3s,border-color .2s}
+    #toTop.show{opacity:1;transform:none;pointer-events:auto}
+    #toTop:hover{border-color:var(--red);color:var(--red);box-shadow:0 0 14px rgba(255,48,79,.25)}
+    @media (max-width:640px){:root{--nav-h:54px}}
+    @media (prefers-reduced-motion:reduce){.intro-inner>*{animation-duration:.01ms}}
+  </style>
+</head>
+<body data-page="home" class="intro-active">
+  <div id="intro" role="dialog" aria-labelledby="introTitle">
+    <div class="intro-inner">
+      <span class="intro-eyebrow">Personal AI Directory</span>
+      <h2 id="introTitle">My AI Knowledge Universe</h2>
+      <p>Seven categories of AI tools, websites, UI references, code libraries, local setup notes, design styles and learning resources — in one place.</p>
+      <button id="introGo" class="btn btn-info btn-lg rounded-pill px-4" type="button">Continue <span aria-hidden="true">→</span></button>
+    </div>
+  </div>
+
+    <nav class="hero-nav" aria-label="Main">
+      <a class="brand" href="index.html">AI<em>Directory</em></a>
+      <a class="btn btn-outline-light btn-sm" href="category.html?cat=all">Browse all</a>
+    </nav>
+  <section class="hero">
+    <h1 id="headline">
+      <span class="eyebrow">Personal AI Directory</span>
+      <!-- <span class="w" style="--i:0">My</span> <span class="w" style="--i:1">AI</span> <span class="w" style="--i:2">Knowledge</span> <span class="w" style="--i:3">Universe</span> -->
+      <span class="sub">Drag to rotate · scroll or pinch to zoom · click a node to explore</span>
+    </h1>
+    <div id="stage" class="stage">
+      <canvas id="globe" aria-label="Interactive 3D sphere of directory categories"></canvas>
+      <div id="nodes"></div>
+      <div id="nodeInfo" class="node-info" aria-live="polite"></div>
+    </div>
+    <div class="vig" aria-hidden="true"></div>
+    <div class="hero-bar">
+      <form id="globalSearch" class="search-form" role="search">
+        <input id="globalQ" class="form-control" type="search" placeholder="Search every entry…" aria-label="Search every entry" autocomplete="off">
+        <button class="btn btn-info" type="submit">Search</button>
+      </form>
+      <div class="zoom-ctl" role="group" aria-label="Zoom">
+        <button id="zoomOut" type="button" aria-label="Zoom out">−</button>
+        <button id="zoomIn" type="button" aria-label="Zoom in">+</button>
+      </div>
+    </div>
+  </section>
+
+  <main class="container py-5">
+    <div id="dataWarning" class="alert alert-warning" hidden></div>
+    <h2 class="h6 text-uppercase text-secondary mb-3" style="letter-spacing:.2em">Categories</h2>
+    <div id="categoryCards" class="row g-3"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-credit">Designed &amp; Developed by <strong>Smit Salunkhe</strong></p>
+    <ul class="footer-links">
+      <li><a href="https://github.com/Salunkhesmit" target="_blank" rel="noopener noreferrer" aria-label="GitHub: Salunkhesmit"><i class="fa-brands fa-github" aria-hidden="true"></i><span>Salunkhesmit</span></a></li>
+      <li><a href="mailto:salunkhesmit4428@gmail.com" aria-label="Email salunkhesmit4428@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span>salunkhesmit4428@gmail.com</span></a></li>
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="data/directory-data.js"></script>
+  <script src="assets/js/sphere.js"></script>
+  <script src="assets/js/directory.js"></script>
+  <button id="toTop" type="button" aria-label="Back to top"><span aria-hidden="true">↑</span> Top</button>
+  <script>
+    (function () {
+      var b = document.body, intro = document.getElementById("intro"), go = document.getElementById("introGo"), top = document.getElementById("toTop");
+      var seen = false; try { seen = sessionStorage.getItem("introSeen") === "1"; } catch (e) {}
+      function reveal() { b.classList.remove("intro-active"); b.classList.add("revealed"); }
+      if (seen) { intro.remove(); reveal(); }            // coming back from a category: skip the intro
+      else {
+        go.focus({ preventScroll: true });
+        go.addEventListener("click", function () {
+          try { sessionStorage.setItem("introSeen", "1"); } catch (e) {}
+          intro.classList.add("leaving"); reveal();
+          setTimeout(function () { intro.remove(); }, 900);
+        });
+      }
+      function check() { top.classList.toggle("show", window.scrollY > 480); }
+      addEventListener("scroll", check, { passive: true }); check();
+      top.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+      });
+    })();
+  </script>
+</body>
+</html>
