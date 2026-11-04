@@ -3750,32 +3750,6 @@ window.DIRECTORY_DATA = {
       "metadata": {
         "workbookStatus": ""
       }
-    },
-    {
-      "id": "ai-tools-agent-qa",
-      "name": "agent-qa",
-      "category": "AI Tools",
-      "subcategory": "App Testing",
-      "description": "Natural-language web/mobile QA with persistent memidex memory and validated self-improvement.",
-      "helpfulness": "Gives coding agents CLI/MCP test execution and reviewable evidence for application changes.",
-      "officialUrl": "https://vostride.com",
-      "pricing": "Local package free to install; model and external-service fees may apply.",
-      "pricingType": "Varies / Verify",
-      "accessType": "Local CLI / MCP server",
-      "tags": [
-        "Testing",
-        "AI Agents",
-        "MCP",
-        "Web",
-        "Android",
-        "iOS"
-      ],
-      "notes": "Requires Node.js 24+, configured model access and browser/device setup. License: FSL-1.1-ALv2. Submitted by vostride for maintainer review.",
-      "verificationStatus": "Needs Verification",
-      "source": "https://github.com/vostride/agent-qa",
-      "metadata": {
-        "workbookStatus": ""
-      }
     }
   ]
 };
