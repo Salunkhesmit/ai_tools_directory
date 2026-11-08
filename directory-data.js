@@ -5839,6 +5839,229 @@ window.DIRECTORY_DATA = {
       "metadata": {
         "workbookStatus": "Verify current plans"
       }
+    },
+    {
+      "id": "ai-tools-capcut",
+      "name": "CapCut",
+      "category": "AI Tools",
+      "subcategory": "Audio / Video Editing",
+      "description": "Video editor with AI features",
+      "helpfulness": "Edits short-form and social videos with templates, captions and effects",
+      "officialUrl": "https://www.capcut.com",
+      "pricing": "Free (Limited) / Paid Plans",
+      "pricingType": "Freemium",
+      "accessType": "Website / App",
+      "tags": [
+        "Video Editing",
+        "Templates"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ai-tools-media-io",
+      "name": "Media.io",
+      "category": "AI Tools",
+      "subcategory": "Audio / Video Editing",
+      "description": "Online suite of AI video, audio and image tools",
+      "helpfulness": "Handles quick conversion, editing and enhancement tasks in the browser",
+      "officialUrl": "https://www.media.io",
+      "pricing": "Free (Limited) / Paid Plans may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Video Editing",
+        "Audio Tools",
+        "Online Tools"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ai-tools-mapify",
+      "name": "Mapify",
+      "category": "AI Tools",
+      "subcategory": "Mind Mapping & Diagrams",
+      "description": "AI mind map generator",
+      "helpfulness": "Turns text, documents and videos into structured mind maps",
+      "officialUrl": "https://mapify.so",
+      "pricing": "Free (Limited) / Paid Plans may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Mind Mapping",
+        "Study Tool"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ai-tools-napkin-ai",
+      "name": "Napkin AI",
+      "category": "AI Tools",
+      "subcategory": "Mind Mapping & Diagrams",
+      "description": "AI tool that turns text into diagrams and visuals",
+      "helpfulness": "Converts notes and ideas into editable graphics and infographics",
+      "officialUrl": "https://www.napkin.ai",
+      "pricing": "Free (Limited) / Paid Plans may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Diagrams",
+        "Infographics"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ai-tools-goblin-tools",
+      "name": "Goblin Tools",
+      "category": "AI Tools",
+      "subcategory": "Productivity AI",
+      "description": "Small AI tools for breaking tasks into steps",
+      "helpfulness": "Splits overwhelming tasks into manageable steps and adjusts tone",
+      "officialUrl": "https://goblin.tools",
+      "pricing": "Web free; verify app pricing",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website / App",
+      "tags": [
+        "Task Management",
+        "Productivity"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ai-tools-usehallmark",
+      "name": "UseHallmark",
+      "category": "AI Tools",
+      "subcategory": "AI Design Skills & MCP",
+      "description": "Design skill for AI coding agents",
+      "helpfulness": "Pushes Claude Code, Cursor and Codex towards distinctive, non-generic UI",
+      "officialUrl": "https://usehallmark.com",
+      "pricing": "Free (open source)",
+      "pricingType": "Free",
+      "accessType": "Agent Skill / CLI",
+      "tags": [
+        "Design Skill",
+        "AI Agents",
+        "UI Design"
+      ],
+      "notes": "By Together AI; installs with npx skills add nutlope/hallmark",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "ai-tools-tasteskill-dev",
+      "name": "TasteSkill.dev",
+      "category": "AI Tools",
+      "subcategory": "AI Design Skills & MCP",
+      "description": "Anti-slop frontend skills for AI agents",
+      "helpfulness": "Gives coding agents tunable design taste for more polished UI output",
+      "officialUrl": "https://tasteskill.dev",
+      "pricing": "Free (open source)",
+      "pricingType": "Free",
+      "accessType": "Agent Skill / CLI",
+      "tags": [
+        "Design Skill",
+        "AI Agents",
+        "UI Design"
+      ],
+      "notes": "Draft listed it under templates; it is an agent skill pack (repo Leonxlnx/taste-skill)",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "ai-tools-inspo-mcp",
+      "name": "Inspo MCP",
+      "category": "AI Tools",
+      "subcategory": "AI Design Skills & MCP",
+      "description": "MCP server with a searchable archive of real website designs",
+      "helpfulness": "Lets coding agents look up design systems, palettes, typography and components from production sites",
+      "officialUrl": "",
+      "pricing": "Open-source; verify hosted access and limits",
+      "pricingType": "Varies / Verify",
+      "accessType": "MCP Server",
+      "tags": [
+        "MCP",
+        "Design Reference",
+        "AI Agents"
+      ],
+      "notes": "Draft listed it under 3D & Experimental UI; functionally an MCP server. Official URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "ai-tools-cleanup-pictures",
+      "name": "Cleanup.pictures",
+      "category": "AI Tools",
+      "subcategory": "Image Editing AI",
+      "description": "AI object and background removal",
+      "helpfulness": "Removes unwanted objects, text and people from images",
+      "officialUrl": "https://cleanup.pictures",
+      "pricing": "Free (Limited) / Paid Plans may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Image Editing",
+        "Object Removal"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ai-tools-zsky-ai",
+      "name": "ZSKY AI",
+      "category": "AI Tools",
+      "subcategory": "AI Tool",
+      "description": "AI tool; exact offering not yet confirmed",
+      "helpfulness": "To be confirmed once the product is verified",
+      "officialUrl": "",
+      "pricing": "Verify current plan",
+      "pricingType": "Varies / Verify",
+      "accessType": "",
+      "tags": [
+        "Unverified"
+      ],
+      "notes": "Flagged as needing further verification in the draft list",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Flagged for further verification"
+      }
     }
   ]
 };
