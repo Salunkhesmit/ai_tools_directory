@@ -1,27 +1,22 @@
-/* ============================================================
-   CENTRAL DATA FILE - the ONLY place directory entries live.
-   Generated from AI_Tools_Master_Directory.xlsx, then yours to edit.
-   See README.md for how to add entries.
-
-   BLANK ENTRY TEMPLATE (copy, paste at the end of `entries`, edit):
+/*BLANK ENTRY TEMPLATE
    {
-     id: "category-slug-tool-name",   // unique, lowercase, no spaces
-     name: "",
-     category: "AI Tools",            // must match a category name below
-     subcategory: "",
-     description: "",
-     helpfulness: "",
-     officialUrl: "",                 // "" if unknown. Must start with https://
-     pricing: "",
-     pricingType: "Varies / Verify",  // see pricingTypes
-     accessType: "",
-     tags: [],
-     notes: "",
-     verificationStatus: "Needs Verification",
-     source: "",
-     metadata: { workbookStatus: "" }
-   },
-   ============================================================ */
+    id: "category-slug-tool-name",   // unique, lowercase, no spaces
+    name: "",
+    category: "AI Tools",            // must match a category name below
+    subcategory: "",
+    description: "",
+    helpfulness: "",
+    officialUrl: "",                 // "" if unknown. Must start with https://
+    pricing: "",
+    pricingType: "Varies / Verify",  // see pricingTypes
+    accessType: "",
+    tags: [],
+    notes: "",
+    verificationStatus: "Needs Verification",
+    source: "",
+    metadata: { workbookStatus: "" }
+  },
+*/
 window.DIRECTORY_DATA = {
   categories: [
     {
@@ -2434,6 +2429,845 @@ window.DIRECTORY_DATA = {
       }
     },
     {
+      "id": "websites-platforms-make",
+      "name": "Make",
+      "category": "Websites & Platforms",
+      "subcategory": "Workflow Automation",
+      "description": "No-code workflow automation platform",
+      "helpfulness": "Connects apps and AI services into automated scenarios",
+      "officialUrl": "https://www.make.com",
+      "pricing": "Free (Limited) / Paid Plans may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website / Platform",
+      "tags": [
+        "Automation",
+        "No-Code"
+      ],
+      "notes": "Draft listed it under AI Tools; reclassified as an automation platform",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-zapier",
+      "name": "Zapier",
+      "category": "Websites & Platforms",
+      "subcategory": "Workflow Automation",
+      "description": "No-code app integration and automation platform",
+      "helpfulness": "Automates repetitive tasks across thousands of apps",
+      "officialUrl": "https://zapier.com",
+      "pricing": "Free (Limited) / Paid Plans may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website / Platform",
+      "tags": [
+        "Automation",
+        "No-Code"
+      ],
+      "notes": "Draft listed it under AI Tools; reclassified as an automation platform",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-shopify",
+      "name": "Shopify",
+      "category": "Websites & Platforms",
+      "subcategory": "E-commerce Platform",
+      "description": "E-commerce store builder",
+      "helpfulness": "Builds and runs online stores with hosting and payments",
+      "officialUrl": "https://www.shopify.com",
+      "pricing": "Free Trial / Paid Plans may vary",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website / Platform",
+      "tags": [
+        "E-commerce",
+        "Website Builder"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-gprm",
+      "name": "GPRM",
+      "category": "Websites & Platforms",
+      "subcategory": "Developer Utilities",
+      "description": "GitHub profile README generator",
+      "helpfulness": "Builds a polished GitHub profile README with stats and widgets",
+      "officialUrl": "https://gprm.itsvg.in",
+      "pricing": "Free",
+      "pricingType": "Free",
+      "accessType": "Website",
+      "tags": [
+        "GitHub",
+        "README",
+        "Developer Tool"
+      ],
+      "notes": "Domain supplied in the draft as gprm.itsvg.in (GitHub Profile ReadMe Maker)",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current availability"
+      }
+    },
+    {
+      "id": "websites-platforms-squoosh-app",
+      "name": "Squoosh.app",
+      "category": "Websites & Platforms",
+      "subcategory": "Image Editing & Optimization",
+      "description": "In-browser image compression and conversion",
+      "helpfulness": "Compresses and converts images into smaller web-friendly formats",
+      "officialUrl": "https://squoosh.app",
+      "pricing": "Free",
+      "pricingType": "Free",
+      "accessType": "Website",
+      "tags": [
+        "Image Optimization",
+        "Web Performance"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "websites-platforms-pacdora",
+      "name": "Pacdora",
+      "category": "Websites & Platforms",
+      "subcategory": "3D Design & Mockups",
+      "description": "Online packaging and product mockup platform",
+      "helpfulness": "Creates 3D packaging mockups and dielines in the browser",
+      "officialUrl": "https://www.pacdora.com",
+      "pricing": "Free (Limited) / Paid Plans may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "3D",
+        "Mockups",
+        "Packaging"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-spline",
+      "name": "Spline",
+      "category": "Websites & Platforms",
+      "subcategory": "3D Design & Mockups",
+      "description": "Browser-based 3D design tool",
+      "helpfulness": "Designs interactive 3D scenes for websites and apps",
+      "officialUrl": "https://spline.design",
+      "pricing": "Free (Limited) / Paid Plans may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website / App",
+      "tags": [
+        "3D",
+        "Interactive Design"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-unicorn",
+      "name": "Unicorn",
+      "category": "Websites & Platforms",
+      "subcategory": "3D Design & Mockups",
+      "description": "3D or visual design platform; exact product to confirm",
+      "helpfulness": "Exact use to be confirmed once the product is identified",
+      "officialUrl": "",
+      "pricing": "Verify current plan",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website",
+      "tags": [
+        "3D",
+        "Unverified"
+      ],
+      "notes": "Draft lists 'Unicorn' without a URL; verify which product is meant",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact product"
+      }
+    },
+    {
+      "id": "websites-platforms-huemint",
+      "name": "Huemint",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Assets / Colour",
+      "description": "AI colour palette generator",
+      "helpfulness": "Generates brand and website colour palettes",
+      "officialUrl": "https://huemint.com",
+      "pricing": "Verify current plan",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website",
+      "tags": [
+        "Colour",
+        "Palette",
+        "Design Assets"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-fonts-in-use",
+      "name": "Fonts In Use",
+      "category": "Websites & Platforms",
+      "subcategory": "Typography & Fonts",
+      "description": "Archive of typography used in real designs",
+      "helpfulness": "Shows how typefaces are used in branding, print and web projects",
+      "officialUrl": "https://fontsinuse.com",
+      "pricing": "Free browsing",
+      "pricingType": "Free",
+      "accessType": "Website",
+      "tags": [
+        "Typography",
+        "Inspiration"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "websites-platforms-velvetyne-fr",
+      "name": "Velvetyne.fr",
+      "category": "Websites & Platforms",
+      "subcategory": "Typography & Fonts",
+      "description": "Libre type foundry",
+      "helpfulness": "Offers open-licensed display fonts for projects",
+      "officialUrl": "https://velvetyne.fr",
+      "pricing": "Free fonts; check each licence",
+      "pricingType": "Free",
+      "accessType": "Website",
+      "tags": [
+        "Typography",
+        "Free Fonts"
+      ],
+      "notes": "Velvetyne.fr; check the licence of each font",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Check asset licence"
+      }
+    },
+    {
+      "id": "websites-platforms-landingfolio",
+      "name": "Landingfolio",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Landing page design gallery",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://www.landingfolio.com",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-layers-to",
+      "name": "Layers.to",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Design showcase and community platform",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://layers.to",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-land-book",
+      "name": "Land-book",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Landing page design gallery",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://land-book.com",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-httpster",
+      "name": "HTTPster",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Curated website design gallery",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://httpster.net",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-recent-design",
+      "name": "Recent.design",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Website design gallery",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://recent.design",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "Domain as supplied in the draft: Recent.design",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "websites-platforms-dark-design",
+      "name": "Dark.design",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Dark-theme website design gallery",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://dark.design",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "Domain as supplied in the draft: Dark.design",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "websites-platforms-nicelydone-club",
+      "name": "Nicelydone.club",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Website and UI design gallery",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://nicelydone.club",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "Domain as supplied in the draft: Nicelydone.club",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "websites-platforms-minimal-gallery",
+      "name": "Minimal.gallery",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Minimal website design gallery",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://minimal.gallery",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "Domain as supplied in the draft: Minimal.gallery",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "websites-platforms-designspiration",
+      "name": "Designspiration",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Visual design inspiration platform",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://www.designspiration.com",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-ui-live",
+      "name": "UI.live",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "UI design gallery",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://ui.live",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "Domain as supplied in the draft: UI.live",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "websites-platforms-siteinspire",
+      "name": "SiteInspire",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Curated web design gallery",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://www.siteinspire.com",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-hoverstat-es",
+      "name": "Hoverstat.es",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Gallery of website hover states and interactions",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://hoverstat.es",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "Domain as supplied in the draft: Hoverstat.es",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "websites-platforms-landing-love",
+      "name": "Landing.love",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Landing page design gallery",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://landing.love",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "Domain as supplied in the draft: Landing.love",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "websites-platforms-darkmodedesign",
+      "name": "DarkModeDesign",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Dark-mode website and app design gallery",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://www.darkmodedesign.com",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-one-page-love",
+      "name": "One Page Love",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Single-page website gallery and resources",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://onepagelove.com",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-lapa-ninja",
+      "name": "Lapa Ninja",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Landing page design gallery",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://www.lapa.ninja",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-bestwebsite-gallery",
+      "name": "BestWebsite.gallery",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Curated website design gallery",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "https://bestwebsite.gallery",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "Domain as supplied in the draft: BestWebsite.gallery",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "websites-platforms-design-made-in-germany",
+      "name": "Design Made in Germany",
+      "category": "Websites & Platforms",
+      "subcategory": "Design Inspiration",
+      "description": "Design gallery of German web and digital work",
+      "helpfulness": "Finds real-world website and landing page references for layout and style ideas",
+      "officialUrl": "",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "Gallery"
+      ],
+      "notes": "Official URL not confirmed",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "websites-platforms-mobbin",
+      "name": "Mobbin",
+      "category": "Websites & Platforms",
+      "subcategory": "App UI Inspiration",
+      "description": "App design pattern and screenshot library",
+      "helpfulness": "Finds mobile and app interface references for screens and user flows",
+      "officialUrl": "https://mobbin.com",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "App UI"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "websites-platforms-screendesign-com",
+      "name": "Screendesign.com",
+      "category": "Websites & Platforms",
+      "subcategory": "App UI Inspiration",
+      "description": "App screen design gallery",
+      "helpfulness": "Finds mobile and app interface references for screens and user flows",
+      "officialUrl": "https://screendesign.com",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "App UI"
+      ],
+      "notes": "Domain as supplied in the draft: Screendesign.com",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "websites-platforms-appshot-gallery",
+      "name": "Appshot.gallery",
+      "category": "Websites & Platforms",
+      "subcategory": "App UI Inspiration",
+      "description": "App screenshot gallery",
+      "helpfulness": "Finds mobile and app interface references for screens and user flows",
+      "officialUrl": "https://appshot.gallery",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Design Inspiration",
+        "App UI"
+      ],
+      "notes": "Domain as supplied in the draft: Appshot.gallery",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "websites-platforms-uxui-shrut",
+      "name": "uxui_shrut",
+      "category": "Websites & Platforms",
+      "subcategory": "Design & Dev Creators",
+      "description": "UI/UX design creator profile",
+      "helpfulness": "Source of UI/UX and web design inspiration",
+      "officialUrl": "",
+      "pricing": "Free to follow",
+      "pricingType": "Free",
+      "accessType": "Social Profile",
+      "tags": [
+        "Creator",
+        "Inspiration"
+      ],
+      "notes": "Handle as supplied in the draft; platform and profile URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact profile URL"
+      }
+    },
+    {
+      "id": "websites-platforms-samey-unfolds",
+      "name": "samey.unfolds",
+      "category": "Websites & Platforms",
+      "subcategory": "Design & Dev Creators",
+      "description": "UI/UX design creator profile",
+      "helpfulness": "Source of UI/UX and web design inspiration",
+      "officialUrl": "",
+      "pricing": "Free to follow",
+      "pricingType": "Free",
+      "accessType": "Social Profile",
+      "tags": [
+        "Creator",
+        "Inspiration"
+      ],
+      "notes": "Handle as supplied in the draft; platform and profile URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact profile URL"
+      }
+    },
+    {
+      "id": "websites-platforms-alphenex-ai",
+      "name": "alphenex.ai",
+      "category": "Websites & Platforms",
+      "subcategory": "Design & Dev Creators",
+      "description": "Design and AI creator profile",
+      "helpfulness": "Source of UI/UX and web design inspiration",
+      "officialUrl": "",
+      "pricing": "Free to follow",
+      "pricingType": "Free",
+      "accessType": "Social Profile",
+      "tags": [
+        "Creator",
+        "Inspiration"
+      ],
+      "notes": "Handle as supplied in the draft; platform and profile URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact profile URL"
+      }
+    },
+    {
+      "id": "websites-platforms-theultronai",
+      "name": "theultronai",
+      "category": "Websites & Platforms",
+      "subcategory": "Design & Dev Creators",
+      "description": "AI and design creator profile",
+      "helpfulness": "Source of UI/UX and web design inspiration",
+      "officialUrl": "",
+      "pricing": "Free to follow",
+      "pricingType": "Free",
+      "accessType": "Social Profile",
+      "tags": [
+        "Creator",
+        "Inspiration"
+      ],
+      "notes": "Handle as supplied in the draft; platform and profile URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact profile URL"
+      }
+    },
+    {
+      "id": "websites-platforms-aaditya-web",
+      "name": "aaditya.web",
+      "category": "Websites & Platforms",
+      "subcategory": "Design & Dev Creators",
+      "description": "Web design creator profile",
+      "helpfulness": "Source of UI/UX and web design inspiration",
+      "officialUrl": "",
+      "pricing": "Free to follow",
+      "pricingType": "Free",
+      "accessType": "Social Profile",
+      "tags": [
+        "Creator",
+        "Inspiration"
+      ],
+      "notes": "Handle as supplied in the draft; platform and profile URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact profile URL"
+      }
+    },
+    {
+      "id": "websites-platforms-theo",
+      "name": "Theo",
+      "category": "Websites & Platforms",
+      "subcategory": "Design & Dev Creators",
+      "description": "Developer and design creator",
+      "helpfulness": "Source of UI/UX and web design inspiration",
+      "officialUrl": "",
+      "pricing": "Free to follow",
+      "pricingType": "Free",
+      "accessType": "Social Profile",
+      "tags": [
+        "Creator",
+        "Inspiration"
+      ],
+      "notes": "Listed only as 'Theo' in the draft; confirm which creator and profile",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact creator"
+      }
+    },
+    {
       "id": "ui-components-skiper-ui",
       "name": "Skiper UI",
       "category": "UI Components & References",
@@ -2819,6 +3653,382 @@ window.DIRECTORY_DATA = {
       }
     },
     {
+      "id": "ui-components-reactbits",
+      "name": "ReactBits",
+      "category": "UI Components & References",
+      "subcategory": "UI Components",
+      "description": "Animated React components for creative interfaces",
+      "helpfulness": "Adds ready-made animated backgrounds, text effects and interactions",
+      "officialUrl": "https://reactbits.dev",
+      "pricing": "Free components / paid products may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website / Code Library",
+      "tags": [
+        "UI Components",
+        "Code Library"
+      ],
+      "notes": "React; GitHub repository is recorded separately under GitHub & Code Libraries",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ui-components-componentry-dev",
+      "name": "Componentry.dev",
+      "category": "UI Components & References",
+      "subcategory": "UI Components",
+      "description": "Reusable UI component collection",
+      "helpfulness": "Provides ready-made components for building interfaces faster",
+      "officialUrl": "https://componentry.dev",
+      "pricing": "Verify current plan",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website / Code Library",
+      "tags": [
+        "UI Components",
+        "Code Library"
+      ],
+      "notes": "Domain as supplied in the draft; exact offering to verify",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact offering"
+      }
+    },
+    {
+      "id": "ui-components-21st-dev",
+      "name": "21st.dev",
+      "category": "UI Components & References",
+      "subcategory": "UI Components",
+      "description": "Community marketplace of React and Tailwind UI components",
+      "helpfulness": "Browse and copy ready-made components and prompts",
+      "officialUrl": "https://21st.dev",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website / Code Library",
+      "tags": [
+        "UI Components",
+        "Code Library"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ui-components-canvas-ui",
+      "name": "Canvas UI",
+      "category": "UI Components & References",
+      "subcategory": "UI Components",
+      "description": "UI component library; exact offering to confirm",
+      "helpfulness": "Provides reusable interface components",
+      "officialUrl": "",
+      "pricing": "Verify current plan",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website / Code Library",
+      "tags": [
+        "UI Components",
+        "Code Library"
+      ],
+      "notes": "Official URL not confirmed",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact offering"
+      }
+    },
+    {
+      "id": "ui-components-vengeance-ui",
+      "name": "Vengeance UI",
+      "category": "UI Components & References",
+      "subcategory": "UI Components",
+      "description": "UI component library; exact offering to confirm",
+      "helpfulness": "Provides reusable interface components",
+      "officialUrl": "",
+      "pricing": "Verify current plan",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website / Code Library",
+      "tags": [
+        "UI Components",
+        "Code Library"
+      ],
+      "notes": "Official URL not confirmed",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact offering"
+      }
+    },
+    {
+      "id": "ui-components-supahero-io",
+      "name": "Supahero.io",
+      "category": "UI Components & References",
+      "subcategory": "UI Components",
+      "description": "UI component resource; exact offering to confirm",
+      "helpfulness": "Provides ready-made sections and components for landing pages",
+      "officialUrl": "https://supahero.io",
+      "pricing": "Verify current plan",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website / Code Library",
+      "tags": [
+        "UI Components",
+        "Code Library"
+      ],
+      "notes": "Domain as supplied in the draft; exact offering to verify",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact offering"
+      }
+    },
+    {
+      "id": "ui-components-bencho",
+      "name": "Bencho",
+      "category": "UI Components & References",
+      "subcategory": "UI Components",
+      "description": "React UI blocks and interface sounds",
+      "helpfulness": "Copy-paste interactive blocks and sound effects for polished UIs",
+      "officialUrl": "https://bencho.dev",
+      "pricing": "Free MIT blocks / paid Bencho Pro",
+      "pricingType": "Freemium",
+      "accessType": "Website / Code Library",
+      "tags": [
+        "UI Components",
+        "Code Library"
+      ],
+      "notes": "Draft name Bencho.dev; free blocks are MIT-licensed, paid blocks need the Pro licence (repo cabralorenzo/bencho)",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ui-components-cursify",
+      "name": "Cursify",
+      "category": "UI Components & References",
+      "subcategory": "UI Components / Animation",
+      "description": "Cursor animation components for React and Next.js",
+      "helpfulness": "Adds interactive cursor effects to landing pages and portfolios",
+      "officialUrl": "https://cursify.vercel.app",
+      "pricing": "Free open-source library; verify any paid products",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website / Code Library",
+      "tags": [
+        "UI Components",
+        "Animation",
+        "Cursor Effects"
+      ],
+      "notes": "Draft name Cursify.ui-layouts (repo ui-layouts/cursify)",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ui-components-animos",
+      "name": "Animos",
+      "category": "UI Components & References",
+      "subcategory": "Animation Library",
+      "description": "Motion or animation resource; exact product to confirm",
+      "helpfulness": "Exact use to be confirmed once the product is identified",
+      "officialUrl": "",
+      "pricing": "Verify current plan",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website",
+      "tags": [
+        "Animation",
+        "Unverified"
+      ],
+      "notes": "Draft lists it under animation libraries; could be a browser motion-template tool, verify before relying on it",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact product"
+      }
+    },
+    {
+      "id": "ui-components-60fps-design",
+      "name": "60fps.design",
+      "category": "UI Components & References",
+      "subcategory": "Animation Reference",
+      "description": "Gallery of UI animation and motion examples",
+      "helpfulness": "Reference for micro-interactions and motion patterns",
+      "officialUrl": "https://60fps.design",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Animation",
+        "Motion Reference"
+      ],
+      "notes": "Domain as supplied in the draft: 60fps.design",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "ui-components-scrolltide-co",
+      "name": "Scrolltide.co",
+      "category": "UI Components & References",
+      "subcategory": "Design Prompt Reference",
+      "description": "Prompt library for design and AI workflows; exact offering to confirm",
+      "helpfulness": "Provides prompts to speed up design and UI generation with AI tools",
+      "officialUrl": "https://scrolltide.co",
+      "pricing": "Verify current plan",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website / Prompt Collection",
+      "tags": [
+        "Prompt Library",
+        "Design Prompts"
+      ],
+      "notes": "Domain as supplied in the draft: Scrolltide.co",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact offering"
+      }
+    },
+    {
+      "id": "ui-components-cta-gallery",
+      "name": "CTA.gallery",
+      "category": "UI Components & References",
+      "subcategory": "UI Pattern Galleries",
+      "description": "Gallery of call-to-action section designs",
+      "helpfulness": "Shows how common website sections and components are designed in practice",
+      "officialUrl": "https://cta.gallery",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "UI Patterns",
+        "Reference"
+      ],
+      "notes": "Domain as supplied in the draft: CTA.gallery",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "ui-components-navbar-gallery",
+      "name": "Navbar.gallery",
+      "category": "UI Components & References",
+      "subcategory": "UI Pattern Galleries",
+      "description": "Gallery of navigation bar designs",
+      "helpfulness": "Shows how common website sections and components are designed in practice",
+      "officialUrl": "https://navbar.gallery",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "UI Patterns",
+        "Reference"
+      ],
+      "notes": "Domain as supplied in the draft: Navbar.gallery",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "ui-components-pricingpages-design",
+      "name": "PricingPages.design",
+      "category": "UI Components & References",
+      "subcategory": "UI Pattern Galleries",
+      "description": "Gallery of pricing page designs",
+      "helpfulness": "Shows how common website sections and components are designed in practice",
+      "officialUrl": "https://pricingpages.design",
+      "pricing": "Free browsing / paid features may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "UI Patterns",
+        "Reference"
+      ],
+      "notes": "Domain as supplied in the draft: PricingPages.design",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "ui-components-component-gallery",
+      "name": "Component.gallery",
+      "category": "UI Components & References",
+      "subcategory": "UI Pattern Galleries",
+      "description": "Reference gallery of UI components across design systems",
+      "helpfulness": "Shows how common components are named and built in real design systems",
+      "officialUrl": "https://component.gallery",
+      "pricing": "Free browsing",
+      "pricingType": "Free",
+      "accessType": "Website",
+      "tags": [
+        "UI Patterns",
+        "Component Reference"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "ui-components-glass3d-dev",
+      "name": "Glass3D.dev",
+      "category": "UI Components & References",
+      "subcategory": "3D & Experimental UI",
+      "description": "Glass-style 3D UI reference; exact offering to confirm",
+      "helpfulness": "Inspiration for glass and 3D interface effects",
+      "officialUrl": "https://glass3d.dev",
+      "pricing": "Verify current plan",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website",
+      "tags": [
+        "3D UI",
+        "Glassmorphism",
+        "Reference"
+      ],
+      "notes": "Domain as supplied in the draft: Glass3D.dev",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
+      "id": "ui-components-eechy-com-runa",
+      "name": "Eechy.com/Runa",
+      "category": "UI Components & References",
+      "subcategory": "3D & Experimental UI",
+      "description": "Experimental UI reference; exact offering to confirm",
+      "helpfulness": "Inspiration for experimental interface and motion ideas",
+      "officialUrl": "https://eechy.com/Runa",
+      "pricing": "Verify current plan",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website",
+      "tags": [
+        "Experimental UI",
+        "Reference"
+      ],
+      "notes": "Link as supplied in the draft: Eechy.com/Runa",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact URL"
+      }
+    },
+    {
       "id": "github-code-libraries-motiondivision-motion",
       "name": "motiondivision/motion",
       "category": "GitHub Repositories & Code Libraries",
@@ -3067,6 +4277,338 @@ window.DIRECTORY_DATA = {
       "source": "Workbook sheet 'GitHub & Code Libraries', row 14",
       "metadata": {
         "workbookStatus": "Verify current install instructions"
+      }
+    },
+    {
+      "id": "github-code-libraries-gsap",
+      "name": "GSAP",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "Animation Library",
+      "description": "Professional JavaScript animation library",
+      "helpfulness": "Animates UI, scroll and SVG effects with precise timeline control",
+      "officialUrl": "https://gsap.com",
+      "pricing": "Free to use; check licence terms",
+      "pricingType": "Varies / Verify",
+      "accessType": "JavaScript Library",
+      "tags": [
+        "Animation Library",
+        "JavaScript Library"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify licence terms"
+      }
+    },
+    {
+      "id": "github-code-libraries-reactbits",
+      "name": "ReactBits",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "UI Component Library",
+      "description": "Animated React components",
+      "helpfulness": "Adds modern effects and components to websites",
+      "officialUrl": "https://github.com/DavidHDev/react-bits",
+      "pricing": "Free components / paid products may vary",
+      "pricingType": "Freemium",
+      "accessType": "GitHub Repository / Library",
+      "tags": [
+        "UI Component Library",
+        "Code Library",
+        "Cross-Listed"
+      ],
+      "notes": "Duplicate reference; main record in UI Components",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "github-code-libraries-vgpu",
+      "name": "VGPU",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "3D / GPU Library",
+      "description": "WebGPU library for shaders and 3D graphics",
+      "helpfulness": "Builds GPU-powered visuals and is designed to work well with AI coding agents",
+      "officialUrl": "https://vgpu.labs.vercel.dev",
+      "pricing": "Free (open source)",
+      "pricingType": "Free",
+      "accessType": "JavaScript Library",
+      "tags": [
+        "WebGPU",
+        "3D",
+        "Shaders"
+      ],
+      "notes": "Open-source project from Vercel Labs; repository github.com/vgpu/vgpu",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "github-code-libraries-freecodecamp",
+      "name": "freeCodeCamp",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "Learning & Reference Repositories",
+      "description": "Open-source codebase and curriculum behind freeCodeCamp",
+      "helpfulness": "Free coding curriculum plus the source of the learning platform",
+      "officialUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "pricing": "Free",
+      "pricingType": "Free",
+      "accessType": "GitHub Repository",
+      "tags": [
+        "Learning",
+        "Open Source"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "github-code-libraries-developer-roadmap",
+      "name": "Developer Roadmap",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "Learning & Reference Repositories",
+      "description": "Roadmaps and guides for developer career paths",
+      "helpfulness": "Shows what to learn and in which order for different developer roles",
+      "officialUrl": "https://github.com/kamranahmedse/developer-roadmap",
+      "pricing": "Free",
+      "pricingType": "Free",
+      "accessType": "GitHub Repository",
+      "tags": [
+        "Learning",
+        "Open Source"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "github-code-libraries-public-apis",
+      "name": "Public APIs",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "Learning & Reference Repositories",
+      "description": "Curated list of free public APIs",
+      "helpfulness": "Finds APIs to use in practice projects and prototypes",
+      "officialUrl": "https://github.com/public-apis/public-apis",
+      "pricing": "Free",
+      "pricingType": "Free",
+      "accessType": "GitHub Repository",
+      "tags": [
+        "Learning",
+        "Open Source"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "github-code-libraries-30-seconds-of-code",
+      "name": "30 Seconds of Code",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "Learning & Reference Repositories",
+      "description": "Short, reusable code snippets for web development",
+      "helpfulness": "Gives quick copy-ready snippets with explanations",
+      "officialUrl": "https://github.com/Chalarangelo/30-seconds-of-code",
+      "pricing": "Free",
+      "pricingType": "Free",
+      "accessType": "GitHub Repository",
+      "tags": [
+        "Learning",
+        "Open Source"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "github-code-libraries-javascript-algorithms",
+      "name": "JavaScript Algorithms",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "Learning & Reference Repositories",
+      "description": "Algorithms and data structures implemented in JavaScript",
+      "helpfulness": "Helps learn and revise core algorithms with explanations",
+      "officialUrl": "https://github.com/trekhleb/javascript-algorithms",
+      "pricing": "Free",
+      "pricingType": "Free",
+      "accessType": "GitHub Repository",
+      "tags": [
+        "Learning",
+        "Open Source"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "github-code-libraries-project-based-learning",
+      "name": "Project Based Learning",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "Learning & Reference Repositories",
+      "description": "Curated list of project-based programming tutorials",
+      "helpfulness": "Finds build-along tutorials to practise languages and frameworks",
+      "officialUrl": "https://github.com/practical-tutorials/project-based-learning",
+      "pricing": "Free",
+      "pricingType": "Free",
+      "accessType": "GitHub Repository",
+      "tags": [
+        "Learning",
+        "Open Source"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "github-code-libraries-mdn-content",
+      "name": "MDN Content",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "Learning & Reference Repositories",
+      "description": "Source content for MDN Web Docs",
+      "helpfulness": "Reference material for HTML, CSS and JavaScript",
+      "officialUrl": "https://github.com/mdn/content",
+      "pricing": "Free",
+      "pricingType": "Free",
+      "accessType": "GitHub Repository",
+      "tags": [
+        "Learning",
+        "Open Source"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "github-code-libraries-the-openai-dots-killer",
+      "name": "The OpenAI Dots Killer",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "Open-Source Alternatives",
+      "description": "Open-source alternative project aimed at an OpenAI product (exact target to confirm)",
+      "helpfulness": "Offers a free or self-hosted alternative to a paid tool",
+      "officialUrl": "",
+      "pricing": "Verify",
+      "pricingType": "Varies / Verify",
+      "accessType": "GitHub Repository",
+      "tags": [
+        "Open-Source Alternative",
+        "Clone Project"
+      ],
+      "notes": "Repository name supplied by user; repository URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact project"
+      }
+    },
+    {
+      "id": "github-code-libraries-the-monarch-money-killer",
+      "name": "The Monarch Money Killer",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "Open-Source Alternatives",
+      "description": "Open-source alternative project aimed at Monarch Money (personal finance)",
+      "helpfulness": "Offers a free or self-hosted alternative to a paid tool",
+      "officialUrl": "",
+      "pricing": "Verify",
+      "pricingType": "Varies / Verify",
+      "accessType": "GitHub Repository",
+      "tags": [
+        "Open-Source Alternative",
+        "Clone Project"
+      ],
+      "notes": "Repository name supplied by user; repository URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact project"
+      }
+    },
+    {
+      "id": "github-code-libraries-the-solidworks-killer",
+      "name": "The SolidWorks Killer",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "Open-Source Alternatives",
+      "description": "Open-source alternative project aimed at SolidWorks (CAD)",
+      "helpfulness": "Offers a free or self-hosted alternative to a paid tool",
+      "officialUrl": "",
+      "pricing": "Verify",
+      "pricingType": "Varies / Verify",
+      "accessType": "GitHub Repository",
+      "tags": [
+        "Open-Source Alternative",
+        "Clone Project"
+      ],
+      "notes": "Repository name supplied by user; repository URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact project"
+      }
+    },
+    {
+      "id": "github-code-libraries-the-after-effects-killer",
+      "name": "The After Effects Killer",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "Open-Source Alternatives",
+      "description": "Open-source alternative project aimed at After Effects (motion graphics)",
+      "helpfulness": "Offers a free or self-hosted alternative to a paid tool",
+      "officialUrl": "",
+      "pricing": "Verify",
+      "pricingType": "Varies / Verify",
+      "accessType": "GitHub Repository",
+      "tags": [
+        "Open-Source Alternative",
+        "Clone Project"
+      ],
+      "notes": "Repository name supplied by user; repository URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact project"
+      }
+    },
+    {
+      "id": "github-code-libraries-the-lucidchart-killer",
+      "name": "The Lucidchart Killer",
+      "category": "GitHub Repositories & Code Libraries",
+      "subcategory": "Open-Source Alternatives",
+      "description": "Open-source alternative project aimed at Lucidchart (diagramming)",
+      "helpfulness": "Offers a free or self-hosted alternative to a paid tool",
+      "officialUrl": "",
+      "pricing": "Verify",
+      "pricingType": "Varies / Verify",
+      "accessType": "GitHub Repository",
+      "tags": [
+        "Open-Source Alternative",
+        "Clone Project"
+      ],
+      "notes": "Repository name supplied by user; repository URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact project"
       }
     },
     {
@@ -3749,6 +5291,553 @@ window.DIRECTORY_DATA = {
       "source": "Workbook sheet 'Study & Learning', row 11",
       "metadata": {
         "workbookStatus": ""
+      }
+    },
+    {
+      "id": "study-learning-leetcode",
+      "name": "LeetCode",
+      "category": "Study & Learning",
+      "subcategory": "Coding Practice",
+      "description": "Coding interview practice platform",
+      "helpfulness": "Practises algorithms and data structures with timed problems",
+      "officialUrl": "https://leetcode.com",
+      "pricing": "Free (Limited) / Paid Plans",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Coding Practice",
+        "Algorithms"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "study-learning-quickref-me",
+      "name": "QuickRef.me",
+      "category": "Study & Learning",
+      "subcategory": "Documentation & Quick References",
+      "description": "Cheat sheets for developers",
+      "helpfulness": "Gives quick syntax references for languages and tools",
+      "officialUrl": "https://quickref.me",
+      "pricing": "Free",
+      "pricingType": "Free",
+      "accessType": "Website",
+      "tags": [
+        "Cheat Sheets",
+        "Quick Reference"
+      ],
+      "notes": "Listed twice in the draft (study and developer utilities); kept as one record",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "study-learning-ieee-xplore",
+      "name": "IEEE Xplore",
+      "category": "Study & Learning",
+      "subcategory": "Research Papers & Journals",
+      "description": "Digital library of IEEE technical papers and standards",
+      "helpfulness": "Finds engineering and computer science research papers",
+      "officialUrl": "https://ieeexplore.ieee.org",
+      "pricing": "Free and paid access; institutional access varies",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website",
+      "tags": [
+        "Research Papers",
+        "Engineering"
+      ],
+      "notes": "Many full texts need a subscription or institutional access",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current access"
+      }
+    },
+    {
+      "id": "study-learning-pdf-drive",
+      "name": "PDF Drive",
+      "category": "Study & Learning",
+      "subcategory": "Study Resources",
+      "description": "PDF and ebook search engine",
+      "helpfulness": "Finds PDF books and documents for study and research",
+      "officialUrl": "https://www.pdfdrive.com",
+      "pricing": "Verify current plan",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website",
+      "tags": [
+        "PDF",
+        "Ebooks",
+        "Research"
+      ],
+      "notes": "Check copyright and licence before downloading or sharing files",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current availability"
+      }
+    },
+    {
+      "id": "study-learning-the-open-university-openlearn-data-analysis-visualisations-in-excel",
+      "name": "The Open University — OpenLearn: Data Analysis: Visualisations in Excel",
+      "category": "Study & Learning",
+      "subcategory": "Online Courses & Certifications",
+      "description": "The Open University (OpenLearn) online course or program",
+      "helpfulness": "Teaches data visualisation techniques in Excel",
+      "officialUrl": "",
+      "pricing": "Verify current pricing and certificate fees",
+      "pricingType": "Varies / Verify",
+      "accessType": "Online Course",
+      "tags": [
+        "Course"
+      ],
+      "notes": "Course URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact course URL"
+      }
+    },
+    {
+      "id": "study-learning-free-academy-ai-chatgpt-vs-claude-vs-gemini-complete-guide",
+      "name": "Free Academy.ai — ChatGPT vs Claude vs Gemini: Complete Guide",
+      "category": "Study & Learning",
+      "subcategory": "Online Courses & Certifications",
+      "description": "Free Academy.ai online course or program",
+      "helpfulness": "Compares major AI assistants and when to use each",
+      "officialUrl": "",
+      "pricing": "Verify current pricing and certificate fees",
+      "pricingType": "Varies / Verify",
+      "accessType": "Online Course",
+      "tags": [
+        "Course"
+      ],
+      "notes": "Course URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact course URL"
+      }
+    },
+    {
+      "id": "study-learning-cisco-networking-academy-junior-cybersecurity-analyst",
+      "name": "Cisco Networking Academy — Junior Cybersecurity Analyst",
+      "category": "Study & Learning",
+      "subcategory": "Online Courses & Certifications",
+      "description": "Cisco Networking Academy online course or program",
+      "helpfulness": "Builds entry-level cybersecurity analyst skills",
+      "officialUrl": "",
+      "pricing": "Verify current pricing and certificate fees",
+      "pricingType": "Varies / Verify",
+      "accessType": "Online Course",
+      "tags": [
+        "Course"
+      ],
+      "notes": "Course URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact course URL"
+      }
+    },
+    {
+      "id": "study-learning-modern-millie-content-creator-masterclass",
+      "name": "Modern Millie — Content Creator Masterclass",
+      "category": "Study & Learning",
+      "subcategory": "Online Courses & Certifications",
+      "description": "Modern Millie online course or program",
+      "helpfulness": "Covers content creation and creator growth basics",
+      "officialUrl": "",
+      "pricing": "Verify current pricing and certificate fees",
+      "pricingType": "Varies / Verify",
+      "accessType": "Online Course",
+      "tags": [
+        "Course"
+      ],
+      "notes": "Course URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact course URL"
+      }
+    },
+    {
+      "id": "study-learning-blackmagic-design-editing",
+      "name": "Blackmagic Design — Editing",
+      "category": "Study & Learning",
+      "subcategory": "Online Courses & Certifications",
+      "description": "Blackmagic Design online course or program",
+      "helpfulness": "Teaches video editing fundamentals",
+      "officialUrl": "",
+      "pricing": "Verify current pricing and certificate fees",
+      "pricingType": "Varies / Verify",
+      "accessType": "Online Course",
+      "tags": [
+        "Course"
+      ],
+      "notes": "Course URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact course URL"
+      }
+    },
+    {
+      "id": "study-learning-google-project-management",
+      "name": "Google — Project Management",
+      "category": "Study & Learning",
+      "subcategory": "Online Courses & Certifications",
+      "description": "Google online course or program",
+      "helpfulness": "Covers project management fundamentals",
+      "officialUrl": "",
+      "pricing": "Verify current pricing and certificate fees",
+      "pricingType": "Varies / Verify",
+      "accessType": "Online Course",
+      "tags": [
+        "Course"
+      ],
+      "notes": "Course URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact course URL"
+      }
+    },
+    {
+      "id": "study-learning-microsoft-introduction-to-python-fundamentals",
+      "name": "Microsoft — Introduction to Python Fundamentals",
+      "category": "Study & Learning",
+      "subcategory": "Online Courses & Certifications",
+      "description": "Microsoft online course or program",
+      "helpfulness": "Introduces Python basics",
+      "officialUrl": "",
+      "pricing": "Verify current pricing and certificate fees",
+      "pricingType": "Varies / Verify",
+      "accessType": "Online Course",
+      "tags": [
+        "Course"
+      ],
+      "notes": "Course URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact course URL"
+      }
+    },
+    {
+      "id": "study-learning-meta-advertising-with-meta",
+      "name": "Meta — Advertising with Meta",
+      "category": "Study & Learning",
+      "subcategory": "Online Courses & Certifications",
+      "description": "Meta online course or program",
+      "helpfulness": "Explains how to run advertising on Meta platforms",
+      "officialUrl": "",
+      "pricing": "Verify current pricing and certificate fees",
+      "pricingType": "Varies / Verify",
+      "accessType": "Online Course",
+      "tags": [
+        "Course"
+      ],
+      "notes": "Course URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact course URL"
+      }
+    },
+    {
+      "id": "study-learning-microsoft-ms-office-specialist",
+      "name": "Microsoft — MS Office Specialist",
+      "category": "Study & Learning",
+      "subcategory": "Online Courses & Certifications",
+      "description": "Microsoft online course or program",
+      "helpfulness": "Builds and certifies Microsoft Office skills",
+      "officialUrl": "",
+      "pricing": "Verify current pricing and certificate fees",
+      "pricingType": "Varies / Verify",
+      "accessType": "Online Course",
+      "tags": [
+        "Course"
+      ],
+      "notes": "Course URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact course URL"
+      }
+    },
+    {
+      "id": "study-learning-deloitte-technology-consulting-virtual-internship",
+      "name": "Deloitte — Technology Consulting Virtual Internship",
+      "category": "Study & Learning",
+      "subcategory": "Online Courses & Certifications",
+      "description": "Deloitte online course or program",
+      "helpfulness": "Gives simulated technology consulting experience",
+      "officialUrl": "",
+      "pricing": "Verify current pricing and certificate fees",
+      "pricingType": "Varies / Verify",
+      "accessType": "Online Course",
+      "tags": [
+        "Course"
+      ],
+      "notes": "Course URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact course URL"
+      }
+    },
+    {
+      "id": "study-learning-paypal-sales-inspire-program",
+      "name": "PayPal — Sales Inspire Program",
+      "category": "Study & Learning",
+      "subcategory": "Online Courses & Certifications",
+      "description": "PayPal online course or program",
+      "helpfulness": "Builds sales skills through a guided program",
+      "officialUrl": "",
+      "pricing": "Verify current pricing and certificate fees",
+      "pricingType": "Varies / Verify",
+      "accessType": "Online Course",
+      "tags": [
+        "Course"
+      ],
+      "notes": "Course URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact course URL"
+      }
+    },
+    {
+      "id": "study-learning-cisco-data-analytics-essentials",
+      "name": "Cisco — Data Analytics Essentials",
+      "category": "Study & Learning",
+      "subcategory": "Online Courses & Certifications",
+      "description": "Cisco online course or program",
+      "helpfulness": "Introduces core data analytics concepts",
+      "officialUrl": "",
+      "pricing": "Verify current pricing and certificate fees",
+      "pricingType": "Varies / Verify",
+      "accessType": "Online Course",
+      "tags": [
+        "Course"
+      ],
+      "notes": "Course URL to confirm",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify exact course URL"
+      }
+    },
+    {
+      "id": "ai-tools-agent-qa",
+      "name": "agent-qa",
+      "category": "AI Tools",
+      "subcategory": "App Testing",
+      "description": "Natural-language web/mobile QA with persistent memidex memory and validated self-improvement.",
+      "helpfulness": "Gives coding agents CLI/MCP test execution and reviewable evidence for application changes.",
+      "officialUrl": "https://vostride.com",
+      "pricing": "Local package free to install; model and external-service fees may apply.",
+      "pricingType": "Varies / Verify",
+      "accessType": "Local CLI / MCP server",
+      "tags": [
+        "Testing",
+        "AI Agents",
+        "MCP",
+        "Web",
+        "Android",
+        "iOS"
+      ],
+      "notes": "Requires Node.js 24+, configured model access and browser/device setup. License: FSL-1.1-ALv2. Submitted by vostride for maintainer review.",
+      "verificationStatus": "Needs Verification",
+      "source": "https://github.com/vostride/agent-qa",
+      "metadata": {
+        "workbookStatus": ""
+      }
+    },
+    {
+      "id": "ai-tools-cursor",
+      "name": "Cursor",
+      "category": "AI Tools",
+      "subcategory": "Coding AI",
+      "description": "AI-powered code editor",
+      "helpfulness": "Helps write, edit and refactor code with an AI agent built into the editor",
+      "officialUrl": "https://cursor.com",
+      "pricing": "Free (Limited) / Paid Plans",
+      "pricingType": "Freemium",
+      "accessType": "Desktop App",
+      "tags": [
+        "Coding AI",
+        "AI Editor",
+        "Vibe Coding"
+      ],
+      "notes": "Listed twice in the draft (assistants and vibe coding); kept as one record",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ai-tools-replit",
+      "name": "Replit",
+      "category": "AI Tools",
+      "subcategory": "AI App Builder",
+      "description": "Online IDE with an AI agent for building and hosting apps",
+      "helpfulness": "Builds, runs and deploys apps from prompts in the browser",
+      "officialUrl": "https://replit.com",
+      "pricing": "Free (Limited) / Paid Plans",
+      "pricingType": "Freemium",
+      "accessType": "Website / App",
+      "tags": [
+        "AI App Builder",
+        "Online IDE",
+        "Vibe Coding"
+      ],
+      "notes": "Listed twice in the draft (assistants and vibe coding); kept as one record",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ai-tools-writefull",
+      "name": "Writefull",
+      "category": "AI Tools",
+      "subcategory": "Writing / Research AI",
+      "description": "AI writing feedback for academic text",
+      "helpfulness": "Improves grammar, wording and paraphrasing in academic and research writing",
+      "officialUrl": "https://www.writefull.com",
+      "pricing": "Free (Limited) / Paid Plans may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website / Add-in",
+      "tags": [
+        "Academic Writing",
+        "Writing AI"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ai-tools-jenni-ai",
+      "name": "Jenni AI",
+      "category": "AI Tools",
+      "subcategory": "Writing / Research AI",
+      "description": "AI writing assistant for essays and research papers",
+      "helpfulness": "Helps draft, expand and cite academic writing",
+      "officialUrl": "https://jenni.ai",
+      "pricing": "Free (Limited) / Paid Plans may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Academic Writing",
+        "Writing AI",
+        "Research"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ai-tools-undetectable-ai",
+      "name": "Undetectable AI",
+      "category": "AI Tools",
+      "subcategory": "Writing / Research AI",
+      "description": "AI text rewriting and humanizing tool",
+      "helpfulness": "Rewrites AI-generated text to read more naturally",
+      "officialUrl": "https://undetectable.ai",
+      "pricing": "Verify current plan",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website",
+      "tags": [
+        "Writing AI",
+        "AI Humanizer"
+      ],
+      "notes": "Check academic integrity and institutional policies before using on coursework",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ai-tools-scispace",
+      "name": "SciSpace",
+      "category": "AI Tools",
+      "subcategory": "Research / Study AI",
+      "description": "AI research assistant for reading papers",
+      "helpfulness": "Explains research papers, finds literature and answers questions about PDFs",
+      "officialUrl": "https://scispace.com",
+      "pricing": "Free (Limited) / Paid Plans may vary",
+      "pricingType": "Freemium",
+      "accessType": "Website",
+      "tags": [
+        "Research AI",
+        "Academic",
+        "Papers"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ai-tools-d-id",
+      "name": "D-ID",
+      "category": "AI Tools",
+      "subcategory": "Video Generation",
+      "description": "AI avatar and talking-head video generation",
+      "helpfulness": "Creates presenter-style videos from images, scripts and voice",
+      "officialUrl": "https://www.d-id.com",
+      "pricing": "Free Trial / Paid Plans may vary",
+      "pricingType": "Varies / Verify",
+      "accessType": "Website / API",
+      "tags": [
+        "Video Generation",
+        "AI Avatar"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
+      }
+    },
+    {
+      "id": "ai-tools-invideo-ai",
+      "name": "InVideo AI",
+      "category": "AI Tools",
+      "subcategory": "Video Generation",
+      "description": "Prompt-to-video creation and editing",
+      "helpfulness": "Turns scripts and prompts into edited videos with voiceover and stock media",
+      "officialUrl": "https://invideo.io",
+      "pricing": "Free (Limited) / Paid Plans",
+      "pricingType": "Freemium",
+      "accessType": "Website / App",
+      "tags": [
+        "Video Generation",
+        "Video Editing"
+      ],
+      "notes": "",
+      "verificationStatus": "Needs Verification",
+      "source": "User-supplied category draft list, Nov 2026",
+      "metadata": {
+        "workbookStatus": "Verify current plans"
       }
     }
   ]
